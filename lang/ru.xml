@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Russian strings for The Impossible Editor.
+     Change only the text between the tags. The key attribute is what
+     the code looks up, so leave it alone. -->
+<strings lang="ru">
+
+  <!-- Окно &quot;О приложении&quot; -->
+  <string key="AboutTitle">О приложении</string>
+  <string key="AboutVersion">Версия 1</string>
+  <string key="AboutAuthor">Автор: Omegaplex</string>
+  <string key="AboutSummary">Продвинутый редактор уровней для давно забытой игры</string>
+  <string key="BtnClose">Закрыть</string>
+
+  <!-- Звук -->
+  <string key="ErrAudioFormat">Поддерживаются только mp3 и ogg.</string>
+  <string key="ErrAudioDevice">Звуковое устройство не открылось, код </string>
+
+  <!-- Окно &quot;Объекты уровня&quot; -->
+  <string key="CountsTitle">Объекты уровня</string>
+  <string key="MeasureSample">Ы</string>
+  <string key="CountsBlocks">Блоки</string>
+  <string key="CountsSpikes">Шипы</string>
+  <string key="CountsPits">Пропасти</string>
+  <string key="CountsTotal">Всего</string>
+  <string key="CountsBackgrounds">Смены фона</string>
+  <string key="CountsGravity">Смены гравитации</string>
+  <string key="CountsFallStripes">Полосы ухода вниз</string>
+  <string key="CountsRiseStripes">Полосы появления</string>
+
+  <!-- Окно &quot;Эффекты&quot; -->
+  <string key="EffectsTitle">Эффекты</string>
+  <string key="EffectsIntro">Эффекты из Heaven в игре работают нестабильно: полоса эффекта, расположенная над объектами, будет захватывать лишние препятствия или обрывать эффект на середине. Ниже правила, при которых этого не происходит.</string>
+  <string key="EffectsFallHead">Уход позади (оранжевый)</string>
+  <string key="EffectsFallText">Освободите 4 столбца перед полосой и 4 после неё, затем продлите её на 4 клетки вперёд. Пустой столбец это столбец без блоков, шипов и пропастей.</string>
+  <string key="EffectsFallWhy">Пространство в начале не даёт эффекту зацепить препятствия до полосы, а запас в конце даёт последним объектам уйти вниз полностью.</string>
+  <string key="EffectsFallExample">Пример: полоса на 6 клеток, по 4 пустых столбца с каждой стороны. После удлинения вперёд она занимает 10 клеток.</string>
+  <string key="EffectsRiseHead">Появление спереди (голубой)</string>
+  <string key="EffectsRiseLength">Полоса должна быть не короче 10 клеток: столько занимает подъём одного столбца, около 0.8 секунды. Каждая лишняя клетка добавляет ещё один столбец, то есть 11 клеток дают два, 12 три и так далее.</string>
+  <string key="EffectsRiseRules">Эффект начинается и кончается от препятствий, а не сам по себе. Столбец, с которого полоса начинается, должен быть непустым. Освободите 9 столбцов после полосы, продлите её на них и поставьте любой объект на следующий столбец: он и остановит эффект.</string>
+  <string key="EffectsRiseExample">Пример: полоса на 14 клеток, первый её столбец занят и следующий за концом тоже. Полностью успеют подняться 5 столбцов.</string>
+
+  <!-- Правка машинного кода игры -->
+  <string key="ErrBadHeaders">Странные заголовки файла игры.</string>
+  <string key="ErrNoSectionRoom">В заголовке нет места под новую секцию.</string>
+
+  <!-- Ошибки применения патчей -->
+  <string key="ErrFileTooSmall">Файл слишком мал, это не та игра.</string>
+  <string key="ErrUnknownBuild">Знакомых мест в коде не нашлось: другая сборка игры.</string>
+  <string key="ErrBackupFailed">Не удалось сохранить копию: </string>
+  <string key="ErrPatchCheck">Внутренняя проверка патча не прошла, правка отменена.</string>
+  <string key="ErrWriteGame">Не удалось записать файл игры: </string>
+  <string key="ErrCloseGameHint">&#10;Закройте игру, если она запущена.</string>
+  <string key="ErrNoBackup">Резервной копии рядом нет.</string>
+  <string key="ErrRestoreFailed">Не удалось вернуть файл: </string>
+
+  <!-- Предустановки физики прыжка -->
+  <string key="PhysPresetNormal">Обычный, как в Fire Aura и пользовательских уровнях</string>
+  <string key="PhysPresetFar">Далёкий, как в Original Level, Chaoz Fantasy и Heaven</string>
+  <string key="PhysPresetHigh">Высокий, как в Phazd</string>
+  <string key="PhysPresetCustom">Свои значения</string>
+
+  <!-- Цвета фона -->
+  <string key="BgBlue">голубой</string>
+  <string key="BgYellow">жёлтый</string>
+  <string key="BgGreen">зелёный</string>
+  <string key="BgViolet">фиолетовый</string>
+  <string key="BgPink">розовый</string>
+  <string key="BgBlack">чёрный</string>
+
+  <!-- Открытие файлов уровня -->
+  <string key="ErrNoPath">Путь не указан.</string>
+  <string key="ErrNotLevelFile">Это не файл уровня. Перетащите папку уровня или сам </string>
+  <string key="ErrNoSuchPath">Такого файла или папки нет.</string>
+  <string key="ErrFolderNotLevel">В папке нет файла {0}, это не уровень.</string>
+  <string key="ErrLevelRead">Файл уровня прочитать не удалось.</string>
+  <string key="ErrLevelBroken">Файл уровня повреждён: </string>
+
+  <!-- Чтение и запись формата уровня -->
+  <string key="ErrFormatVersion">Неизвестная версия формата уровня: </string>
+  <string key="ErrObjectType">Неизвестный тип объекта: </string>
+  <string key="ErrBackgroundType">Неизвестный тип смены фона: </string>
+  <string key="ErrTooManyObjects">Объектов больше {0}, формат такое не хранит.</string>
+
+  <!-- Главное окно: меню, инструменты, панель и сообщения -->
+  <string key="MenuFile">&amp;Файл</string>
+  <string key="MenuNew">Новый</string>
+  <string key="MenuOpen">Открыть...</string>
+  <string key="MenuSave">Сохранить</string>
+  <string key="MenuSaveAs">Сохранить как...</string>
+  <string key="MenuSettings">Настройки...</string>
+  <string key="MenuExit">Выход</string>
+  <string key="MenuEdit">&amp;Правка</string>
+  <string key="MenuUndo">Отменить</string>
+  <string key="MenuRedo">Вернуть</string>
+  <string key="MenuCut">Вырезать</string>
+  <string key="MenuCopy">Копировать</string>
+  <string key="MenuPaste">Вставить</string>
+  <string key="MenuSelectAll">Выделить всё</string>
+  <string key="MenuDeleteSelected">Удалить выделенное</string>
+  <string key="MenuView">&amp;Вид</string>
+  <string key="MenuGrid">Сетка</string>
+  <string key="MenuSnap">Привязка к сетке</string>
+  <string key="MenuZoomReset">Масштаб по умолчанию</string>
+  <string key="MenuGoStart">В начало уровня</string>
+  <string key="MenuGoFinish">К финишу</string>
+  <string key="MenuLevel">&amp;Уровень</string>
+  <string key="MenuTest">Тестировать</string>
+  <string key="MenuRunGame">Запуск игры</string>
+  <string key="MenuNoClip">Бессмертие</string>
+  <string key="MenuCustomRes">Пользовательские ресурсы</string>
+  <string key="MenuPhysics">Физика прыжка...</string>
+  <string key="MenuPatches">Патчи игры...</string>
+  <string key="MenuLevelsFolder">Папка уровней...</string>
+  <string key="MenuChooseMusic">Выбрать музыку...</string>
+  <string key="MenuLevelFolder">Папка уровня...</string>
+  <string key="ToolBlock">Блок (1)</string>
+  <string key="ToolSpike">Шип (2)</string>
+  <string key="ToolPit">Пропасть (3)</string>
+  <string key="ToolErase">Удаление (4)</string>
+  <string key="ToolSelect">Выделение (5)</string>
+  <string key="ToolBackground">Фон (6), Z и X для смены фона</string>
+  <string key="ToolGravity">Гравитация (7)</string>
+  <string key="ToolEffect">Эффекты (8), Z и X для смены эффекта</string>
+  <string key="ToolFinish">Финиш (9)</string>
+  <string key="EffectFallName">уход вниз позади</string>
+  <string key="EffectRiseName">появление снизу впереди</string>
+  <string key="EffectMore">Подробнее...</string>
+  <string key="ToolEffectNamed">Эффекты (8): {0}, Z и X для смены эффекта</string>
+  <string key="BtnMusicTip">Выбрать музыку... (Ctrl+M)</string>
+  <string key="BtnFollowTip">Следовать за линией (Q)</string>
+  <string key="BtnPlayTip">Пуск и пауза (W)</string>
+  <string key="BtnStartTip">Стартовая позиция (E)</string>
+  <string key="BtnStopTip">Стоп (R)</string>
+  <string key="ToolBackgroundNamed">Фон (6): {0}, Z и X для смены фона</string>
+  <string key="StatusObjects">Объекты: </string>
+  <string key="StatusZoom">Масштаб: </string>
+  <string key="StatusSize">Длина: {0}, высота: {1}</string>
+  <string key="StatusMusicLoading">готовим музыку</string>
+  <string key="TitleUnsaved">Несохранённый</string>
+  <string key="LimitReached">Достигнут предел формата: {0} объектов.&#10;Больше в файл уровня не поместится.</string>
+  <string key="AskSaveChanges">Уровень изменён. Сохранить перед продолжением?</string>
+  <string key="ErrOpenFolder">Не удалось открыть папку:&#10;</string>
+  <string key="PickLevelFolder">Выберите папку уровня</string>
+  <string key="ErrNoLevelDat">В выбранной папке нет level.dat.</string>
+  <string key="ErrOpenLevel">Не удалось открыть уровень:&#10;</string>
+  <string key="NewLevelName">Новый уровень</string>
+  <string key="ErrCreateFolder">Не удалось создать папку уровня:&#10;</string>
+  <string key="ErrCopyFiles">Не все файлы уровня удалось скопировать:&#10;</string>
+  <string key="ErrSaveLevel">Не удалось сохранить уровень:&#10;</string>
+  <string key="MusicFilter">Музыка (*.mp3;*.ogg)|*.mp3;*.ogg|Все файлы (*.*)|*.*</string>
+  <string key="ErrMusicFormat">Игра понимает только mp3 и ogg.</string>
+  <string key="ErrCopyMusic">Не удалось скопировать музыку:&#10;</string>
+  <string key="ErrMoveMusic">Не удалось перенести музыку в папку уровня:&#10;</string>
+  <string key="ErrOpenMusic">Не удалось открыть музыку:&#10;</string>
+  <string key="ErrNoMusicInFolder">В папке уровня нет music.mp3 или music.ogg.</string>
+  <string key="NeedPatchNoClip">Нужен патч: бессмертие</string>
+  <string key="NeedPatchResources">Нужен патч: свои ресурсы и физика</string>
+  <string key="AskGamePath">Укажите путь к ImpossibleGame.exe</string>
+  <string key="GameFilter">ImpossibleGame.exe|ImpossibleGame.exe|Программы (*.exe)|*.exe</string>
+  <string key="ErrRunGame">Не удалось запустить игру:&#10;</string>
+
+  <!-- Окно &quot;Патчи игры&quot; -->
+  <string key="PatchTitle">Патчи игры</string>
+  <string key="PatchIntro">Набор исправлений и дополнительных функций для The Impossible Game. Правки вносятся в исполняемый файл игры, исходное состояние можно вернуть в любой момент.</string>
+  <string key="PatchNoClipText">F1 переключает режим неуязвимости прямо во время игры. Полезно при тестировании сложных уровней.</string>
+  <string key="PatchResourcesName">Свои ресурсы и физика</string>
+  <string key="PatchResourcesText">Если в папке уровня есть пользовательская графика и аудио, игра загрузит для него эти ресурсы вместо встроенных. F2 переключает ресурсы во время игры. Параметры физики прыжка берутся из level.ini в папке уровня.</string>
+  <string key="PatchMedalName">Отключить Medal Unlocked</string>
+  <string key="PatchMedalText">Убирает ложное сообщение о получении медали при первом запуске уровня. Остальные сообщения о медалях не затрагиваются.</string>
+  <string key="PatchFolderName">Переходить к папке с уровнями</string>
+  <string key="PatchFolderText">Сразу открывает папку levels при выборе пользовательского уровня в меню игры.</string>
+  <string key="PatchSyncName">Синхронизация аудио</string>
+  <string key="PatchSyncText">Компенсирует отставание музыки от уровня в первой попытке, придерживая начало уровня и синхронизируя звучание с последующими попытками.</string>
+  <string key="PatchDpiName">Исправление DPI</string>
+  <string key="PatchDpiText">Отключает растягивание окна игры при масштабе интерфейса Windows более 100%.</string>
+  <string key="BtnApply">Применить</string>
+  <string key="BtnRestore">Вернуть исходный файл</string>
+  <string key="PatchHoldLabel">Придержка, мс</string>
+  <string key="ErrReadGame">Файл игры прочитать не удалось: </string>
+
+  <!-- Окно &quot;Физика прыжка&quot; -->
+  <string key="PhysicsTitle">Физика прыжка</string>
+  <string key="PhysicsIntro">Физика прыжка в оригинальных уровнях неодинакова. Вы можете изменить её для своего уровня, параметры будут сохранены в level.ini в его папке. Игра без патча не читает этот файл и не следует пользовательским параметрам.</string>
+  <string key="PhysicsJumpLabel">Прыжок:</string>
+  <string key="PhysicsCustom">Пользовательский</string>
+  <string key="PhysicsHeight">Высота</string>
+  <string key="PhysicsLength">Длина</string>
+  <string key="PhysicsFlightSample">Полёт: 0.00 сек</string>
+  <string key="PhysicsModeShape">высота, длина</string>
+  <string key="PhysicsModeGame">толчок, гравитация</string>
+  <string key="PhysicsHint">Используйте на сетке Alt с левой кнопкой мыши, чтобы отобразить подсказку для выбранной физики.</string>
+  <string key="BtnCancel">Отмена</string>
+  <string key="BtnOk">ОК</string>
+  <string key="PhysicsJumpField">Толчок</string>
+  <string key="PhysicsGravityField">Гравитация</string>
+  <string key="PhysicsFlight">Полёт: {0} сек</string>
+
+  <!-- Прочее -->
+  <string key="Unknown">неизвестно</string>
+
+  <!-- Окно сохранения уровня -->
+  <string key="SaveTitle">Сохранение уровня</string>
+  <string key="SaveNameLabel">Название уровня:</string>
+  <string key="SaveFolderLabel">Папка с уровнями:</string>
+  <string key="BtnBrowse">Обзор</string>
+  <string key="SaveFolderPrompt">Где держать папки уровней</string>
+  <string key="SaveHint">Будет создана папка "Название.lvl" с файлом level.dat внутри.</string>
+  <string key="ErrBadName">Название пустое или содержит недопустимые символы.</string>
+  <string key="ErrNoLevelsFolder">Папка с уровнями не существует.</string>
+
+  <!-- Окно &quot;Настройки&quot; -->
+  <string key="SettingsTitle">Настройки</string>
+  <string key="SettingsInvert">Инвертировать:</string>
+  <string key="SettingsInvertScroll">Горизонтальную прокрутку сетки</string>
+  <string key="SettingsInvertZoom">Масштабирование сетки</string>
+  <string key="SettingsInvertDraw">Непрерывный режим: протяжка без Shift</string>
+  <string key="SettingsBlack">Чёрный фон вместо тёмно-серого</string>
+  <string key="SettingsGamePath">Путь к ImpossibleGame.exe:</string>
+
+  <!-- Названия действий для отмены -->
+  <string key="UndoAdd">добавление</string>
+  <string key="UndoDelete">удаление</string>
+  <string key="UndoMove">перемещение</string>
+  <string key="UndoMoveSelection">перенос выделения</string>
+  <string key="UndoGravity">гравитация</string>
+  <string key="UndoBackground">смена фона</string>
+  <string key="UndoEffect">эффект</string>
+  <string key="UndoFinish">перенос финиша</string>
+  <string key="SettingsLanguage">Язык:</string>
+  <string key="SettingsLanguageSystem">Как в системе</string>
+</strings>
