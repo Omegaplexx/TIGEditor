@@ -25,13 +25,13 @@ Use the Gravity tool to change the level's gravity at any time.
 
 Configure how obstacles disappear behind the player and appear in front of them (like in Heaven).
 
-<img width="33%" src="https://github.com/user-attachments/assets/54a4493c-5a98-45f5-b80e-ff3aa03747dc" />
-<img width="33%" src="https://github.com/user-attachments/assets/176b0cf3-107e-43ec-bb86-db6a9eb571de" />
-<img width="33%" src="https://github.com/user-attachments/assets/13f0feae-6f5d-4bee-8960-6f6424cfa31e" />
+<img width="30%" src="https://github.com/user-attachments/assets/54a4493c-5a98-45f5-b80e-ff3aa03747dc" />
+<img width="30%" src="https://github.com/user-attachments/assets/176b0cf3-107e-43ec-bb86-db6a9eb571de" />
+<img width="30%" src="https://github.com/user-attachments/assets/13f0feae-6f5d-4bee-8960-6f6424cfa31e" />
 
-<img width="33%" src="https://github.com/user-attachments/assets/17be08af-b2da-4076-9f23-f2ae9ec24b66" />
-<img width="33%" src="https://github.com/user-attachments/assets/0b314c47-8457-4e7f-ac78-5b4b13b2560a" />
-<img width="33%" src="https://github.com/user-attachments/assets/51234572-56b4-490e-afee-396e8506b8d3" />
+<img width="30%" src="https://github.com/user-attachments/assets/17be08af-b2da-4076-9f23-f2ae9ec24b66" />
+<img width="30%" src="https://github.com/user-attachments/assets/0b314c47-8457-4e7f-ac78-5b4b13b2560a" />
+<img width="30%" src="https://github.com/user-attachments/assets/51234572-56b4-490e-afee-396e8506b8d3" />
 
 Place the orange and blue effect lines. Orange is for sinking obstacles behind the player; blue is for rising ahead.
 
@@ -41,13 +41,13 @@ Place the orange and blue effect lines. Orange is for sinking obstacles behind t
 
 Add the modified `game_1.png` to your level folder, and the editor will use the graphics from that file. Use F2 to quickly switch between the built-in and custom graphics.
 
-<img width="40%" src="https://github.com/user-attachments/assets/289ce3ba-fe65-47ec-90bb-205afcbc11ca" />
+<img width="60%" src="https://github.com/user-attachments/assets/289ce3ba-fe65-47ec-90bb-205afcbc11ca" />
 
 ### Advanced building
 
 Select, copy, and move objects with your mouse and keyboard!
 
-<img width="40%" src="https://github.com/user-attachments/assets/453aed75-bd28-43de-a4ce-95209aa031fa" />
+<img width="60%" src="https://github.com/user-attachments/assets/453aed75-bd28-43de-a4ce-95209aa031fa" />
 
 - Hold `Ctrl` to enter selection mode or to move already selected objects
 - Hold `Ctrl` and `Alt` to copy selected objects
@@ -60,7 +60,7 @@ You can also move objects with arrow keys.
 
 Play and scrub the soundtrack without any delays, set start positions, autoscroll the level during playback.
 
-<img width="40%" src="https://github.com/user-attachments/assets/475627a9-1e08-41aa-8afe-f511972b1872" />
+<img width="60%" src="https://github.com/user-attachments/assets/475627a9-1e08-41aa-8afe-f511972b1872" />
 
 Features from left to right:
 - Toggle camera following the playback line
@@ -74,7 +74,7 @@ Accessible via mouse and keyboard.
 
 Press `Alt + LMB` (left mouse button) to display jump guide. Don't confuse this with `Ctrl + LMB`—that's in the original editor!
 
-<img width="40%" src="https://github.com/user-attachments/assets/2d95d6c1-f9f2-440c-a73a-798603b36dfd" />
+<img width="60%" src="https://github.com/user-attachments/assets/2d95d6c1-f9f2-440c-a73a-798603b36dfd" />
 
 Press `Alt + RMB` (right mouse button) to hide jump guide.
 
@@ -87,14 +87,14 @@ The editor includes several fixes and QoL features for The Impossible Game by ap
 
 This patch adds toggleable in-game invincibility mode via the F1 hotkey.
 
-<img width="40%" src="https://github.com/user-attachments/assets/df5730a1-7ae7-498b-8f35-2b87b970e15f" />
+<img width="60%" src="https://github.com/user-attachments/assets/df5730a1-7ae7-498b-8f35-2b87b970e15f" />
 
 
 ### Custom resources and physics
 
 Adds native support for custom graphics and physics for user-created levels.
 
-<img width="40%" src="https://github.com/user-attachments/assets/91a98b11-5d22-409e-a6d2-062f1c245010" /> <img width="40%" src="https://github.com/user-attachments/assets/9022efa8-2359-4334-8b7c-e4ba1a50c147" />
+<img width="60%" src="https://github.com/user-attachments/assets/91a98b11-5d22-409e-a6d2-062f1c245010" /> <img width="60%" src="https://github.com/user-attachments/assets/9022efa8-2359-4334-8b7c-e4ba1a50c147" />
 
 ### DPI fix
 
@@ -106,7 +106,7 @@ Prevents the game window from being stretched if the Windows interface scale is 
 
 As the title says, it hides the annoying pop-up about unlocking a medal when a level starts. Pop-ups about actually getting medals are not affected.
 
-<img width="40%" src="https://github.com/user-attachments/assets/9ef40358-04f9-4877-97c7-44947af824ac" />
+<img width="60%" src="https://github.com/user-attachments/assets/9ef40358-04f9-4877-97c7-44947af824ac" />
 
 ### Jump to level folder
 
